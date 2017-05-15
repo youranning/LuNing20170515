@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/left"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/left_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="侧滑的界面"
+        android:textSize="25sp" />
+
+
+    <com.kyleduo.switchbutton.SwitchButton
+        android:id="@+id/switch_btn"
+        style="@style/SwitchButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:checked="true"
+        android:textColor="@color/custom_text_state_color"
+        custom:kswBackColor="#999999"
+        custom:kswBackRadius="10dp"
+        custom:kswTextOff="夜间模式"
+        custom:kswTextOn="白天模式"
+        custom:kswThumbColor="#00FF00"
+        custom:kswThumbRadius="10dp" />
+
+
+</RelativeLayout>
