@@ -83,6 +83,9 @@ public class MainActivity extends SlidingFragmentActivity implements View.OnClic
     public void onClick(View v) {
 
         Log.e("","-------------");
+
+        //调用方法  侧滑页面
+        slidingMenu.toggle();
     }
 
     private void sideslip() {
